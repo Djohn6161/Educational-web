@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CVBC COdes - Sign in</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" type="text/css" href="signin.css">
+</head>
+<body>
+	<table width="100%">
+		<tr>
+			<th style=" width: 80%;background-color: white; text-align: left; padding: 0px;">
+				<P style="display: inline-block; width: 22%; float: left; padding: 0px 5px 0px 0px; margin: 0px 0px 0px 0px;">CVBC CODES</P>
+			</th>
+			<th style="background-color: white; padding: 20PX;">
+				<p style="padding: 0px 0px 0px 0px; margin-top: 0px; margin-bottom: 0px; float: right;">SIGN IN<p>
+			</th>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<div class="login">  
+				   	<form id="login" method="POST" action="home.html">    
+				        <label><b style="display: inline">First Name:</b>
+				        <b style="display: inline; margin: 0px 200px 0px 200px">Last Name:</b> 
+				        <b style="display: inline">Middle Name:</b>     
+				        </label>
+				        <br>    
+				        <input type="text" name="fname" id="fname" placeholder="First Name"> 
+				        <input type="text" name="lname" id="lname" placeholder="Last Name">
+				        <input type="text" name="mname" id="mname" placeholder="Middle Name">   
+				        <br><br> 
+				         <label><b style="display: inline;">Email Address:</b>
+				         	<b style="display: inline; margin: 0px 200px 0px 400px;">Gender:</b>
+				        <br>    
+				        </label>    
+				        <input type="text" name="email" id="email" placeholder="Email Address"> 
+				        <input type="radio" id="male" name="male" value="Male"> 
+				        <label for="html" style="display: inline;">Male</label><br> 
+				        <input type="radio" id="female" name="female" value="Male"> 
+				        <label for="html" style="display: inline;">Female</label><br> 
+				        <br><br>
+				        <label>
+				        	<b style="display: inline;">Password: </b>
+				        	<b style="display: inline; margin: 0px 0px 0px 440px">Age:</b>
+
+				        <br>  
+				        </label>    
+				        <input type="text" name="pass" id="pass" placeholder="Password">    
+				        <input type="text" name="age" id="age" placeholder="Age">
+				        <br><br>       
+				        <input type="submit" name="log" id="log" value="SIGN IN">       
+				        <br><br>    
+				        <br><br>    
+				        <a href="#"> Forgot Password</a>    
+				    </form>       
+				</div>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>

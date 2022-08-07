@@ -1,0 +1,168 @@
+.active {
+  background-color: rgb(16,244,4);
+}
+body{
+	font-family: arial;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100%;
+}
+h1{
+	text-align: center;
+
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th{
+	font-size: 200%;
+	padding: 0px;
+	color: black;
+	background-color: gray;
+}
+td{
+	padding: 50px;
+}
+.nav ul {
+	float: right;
+	display: inline-block;
+	width: 75%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.nav li {
+  float: left;
+}
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+}
+.home{
+	margin: auto;
+	width: 800px;  
+	overflow: hidden;  
+	margin: auto;  
+	margin: 20 0 0 450px;  
+	padding: 80px;  
+	background-color: rgb(150,150,150);
+	border-radius: 15px;
+	text-align: center;
+	}
+.right{
+	width: 400px;
+	float: left;
+}
+.left{
+	width: 400px;
+	float: right;
+}
+.right li{
+	text-align: left;
+}
+.left li{
+	text-align: left;
+}
+.right li a{
+	color: black;
+}
+.left li a{
+	color: black;
+}
+.dev1{
+	margin-left: 70px;
+	display: inline-block;
+	width: 300px;
+	height: 500px;
+	float: left;
+	border: 1px solid black;
+	border-radius: 6px;
+	background-color: gold;
+	color: black;
+}
+.dev1 img{
+	height: 200px;
+	margin: 15px 0px 15px 0px;
+}
+.dev1 p{
+	margin-top: 5px;
+	margin-left: 5px;
+	text-align: left;
+	margin-bottom: 1px;
+}
+.dev2{
+	margin-left: 70px; 
+	display: inline-block;
+	width: 300px;
+	height: 500px;
+	float: left;
+	border: 1px solid black;
+	border-radius: 6px;
+	background-color: silver;
+	color: black;
+}
+.dev2 img{
+	height: 200px;
+	margin: 15px 0px 15px 0px;
+}
+.dev2 p{
+	margin-top: 5px;
+	margin-left: 5px;
+	text-align: left;
+	margin-bottom: 1px;
+}
+.dev3{
+	margin-top: 25px;
+	margin-left: 70px; 
+	display: inline-block;
+	width: 300px;
+	height: 500px;
+	float: left;
+	border: 1px solid black;
+	border-radius: 6px;
+	background-color:  rgb(176,141,87);
+	color: black;
+}
+.dev3 img{
+	height: 200px;
+	margin: 15px 0px 15px 0px;
+}
+.dev3 p{
+	margin-top: 5px;
+	margin-left: 5px;
+	text-align: left;
+	margin-bottom: 1px;
+}
+.dev4{
+	margin-top: 25px;
+	margin-left: 70px; 
+	display: inline-block;
+	width: 300px;
+	height: 500px;
+	float: left;
+	border: 1px solid black;
+	border-radius: 6px;
+	background-color: silver;
+	color: black;
+}
+.dev4 img{
+	height: 200px;
+	margin: 15px 0px 15px 0px;
+}
+.dev4 p{
+	margin-top: 5px;
+	margin-left: 5px;
+	text-align: left;
+	margin-bottom: 1px;
+}

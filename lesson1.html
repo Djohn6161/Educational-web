@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CVBC COdes - Lesson 1</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="main.css">
+		<style type="text/css">
+			body{
+				background-image: url('photo/board.jpg');
+			}
+			.home p{
+				font-size: 120%;
+				text-align: left;
+
+			}
+			.home h1{
+				text-align: left;
+				margin-right: 400px;
+			}
+			.home h3{
+				text-align: left;
+				font-size: 120%;
+			}
+			.note{
+				text-align: left;
+				color: green;
+				font-size: 120%;
+			}
+			.tip{
+				text-align: left;
+				color: rgb(86,58,218);
+				font-size: 120%;
+			}
+			.danger{
+				text-align: left;
+				color: red;
+				font-size: 120%;
+			}
+		</style>
+	</head>
+	<body>
+		<table id="top" width="100%">
+			<tr>
+				<th style=" width: 80%;background-color: white; text-align: left; padding: 0px;">
+					<P style="display: inline-block; width: 22%; float: left; padding: 0px 0px 0px 0px; margin: 15px 5px 0px 0px;">CVBC CODES</P>
+					<div class="nav">
+						<ul>
+						<li><a href="home.html">HOME</a></li>
+						<li><a  class="active" href="lessons.html">LESSON</a></li>
+						<li><a href="assessment.html">ASSESSMENT</a></li>
+						<li><a href="developers.html">DEVELOPERS</a></li>
+					</ul>
+					</div>
+					
+				</th>
+				<th style="background-color: white;">
+					<p style="padding: 30px 0px 0px 0px; margin: auto;">LESSONS<p>
+				</th>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<div class="home">  
+						<h1 style=" display: inline; "> Lesson 1</h1>
+						<a href="Lesson2.html" style="display: inline; font-size: 200%; text-decoration: none;"> Next Lesson > </a>
+						<br><br>
+						<h1 style="margin: 0px;text-align: left;">1. What Is C Programming, and Why Should I Care?</h1>
+						<p style="text-align: left;">Although some people consider C to be difficult to learn and use, you’ll soon see that they are wrong. C is touted as being a cryptic programming language, and it can be—but a well-written C program is just as easy to follow as a program written in any other programming language. The demand for programmers and developers today is high, and learning C is an effective foundation to build the skills needed in a variety of fields, including app development, game programming, and so much more.
+						</p>
+					   	<p>If you’ve never written a program in your life, this chapter is an excellent beginning because it teaches you introductory programming concepts, explains what a program is, and provides a short history of the C language. Get ready to be excited! C is a programming language rich in its capabilities.      
+						</p>
+						<h3>What Is a Program?</h3>
+						<p>
+							A computer isn’t smart. Believe it or not, on your worst days, you are still light-years ahead of your computer in intelligence. You can think, and you can tell a computer what to do. Here is where the computer shines: It will obey your instructions. Your computer will sit for days processing the data you supply, without getting bored or wanting overtime pay. <br><br>The computer can’t decide what to do on its own. Computers can’t think for themselves, so programmers (people who tell computers what to do) must give computers extremely detailed instructions. Without instructions, a computer is useless; with incorrect instructions, a computer will not successfully execute your desired task. A computer can no more process your payroll without detailed instructions than an automobile can start by itself and drive around the block independently. The collection of detailed expressions that you supply when you want your computer to perform a specific task is known as a program.
+						</p>
+						<hr>
+						<h3 class="note">Note:</h3>
+						<p class="note"> 
+							Word processors, apps, spreadsheets, and computer games are nothing more than computer programs. Facebook is a collection of programs. Without such programs, the computer would just sit there, not knowing what to do next. A word-processing program contains a list of detailed instructions, written in a computer language such as C, that tells your computer exactly how to be a word processor. When you program, you are telling the computer to follow the instructions in the program you have supplied.
+						</p>
+						<hr>
+						<p>
+							You can buy or download thousands of programs for your computer, tablet, or phone, but when a business needs a computer to perform a specific task, that business hires programmers and developers to create software that follows the specifications the business needs. You can make your computer or mobile device do many things, but you might not be able to find a program that does exactly what you want. This book rescues you from that dilemma. After you learn C, you will be able to write programs that contain instructions that tell the computer how to behave.
+						</p>
+						<hr>
+						<h3 class="tip">Tip:</h3>
+						<p class="tip">A computer program tells your computer how to do what you want. Just as a chef needs a recipe to make a dish, a program needs instructions to produce results. A recipe is nothing more than a set of detailed instructions that, if properly written, describes that proper sequence and the contents of the steps needed to prepare a certain dish. That’s exactly what a computer program is to your computer.</p>
+						<hr>
+						<p>Programs produce output when you run or execute them. The prepared dish is a recipe’s output, and the word processor or app is the output produced by a running program</p>
+						<hr>
+						<h3 class="danger">Danger:</h3>
+						<p class="danger">Just as when a chef gets an ingredient wrong or misses a step in a recipe, the resulting dish can be inedible; if you mistype code or skip a step, your program will not work.</p>
+						<hr>
+						<h3>What You Need to Write C Programs</h3>
+						<p>
+							Before you can write and execute a C program on your computer, you need a C compiler. The C compiler takes the C program you write and builds or compiles it (technical terms for making the program computer-readable), enabling you to run the compiled program when you’re ready to look at the results. Luckily, many excellent free software packages are available in which you can edit and compile your C programs. A simple web search will provide a list. This book uses Code::Blocks
+						</p>
+						<hr>
+						<h3 class="tip">Tip:</h3>
+						<p class="tip">If you run a search for “C Programming Compilers,” you’ll see a number of freeware options, including offerings from Borland and Microsoft. So why does this book use Code::Blocks? Because it offers versions for Windows, Macs, and Linux, so you can
+						use a version of the software no matter what operating system you use. However, feel free to pick whichever programming environment looks best to you.</p>
+						<hr>
+						<p>
+							If you surf to the Code::Blocks page and read the very first sentence, you may worry a bit (or a lot):<br> The open source, cross platform, free C++ IDE. <br>Open source refers to software code that users can alter or improve. (You will not be doing this anytime soon, so put it out of your mind.) Cross-platform is an adjective that means the software can run on different operating systems—as a beginner, however, you need concern yourself with only your own platform. I think free is a term we can all get behind, and IDE is short for integrated development environment, which just means you can write, edit, and debug your programs without having to switch software to do so. We get to debugging shortly.<br><br> Don’t panic about the C++ part. You can write either C or C++ programs in Code::Blocks. Finding a C compiler these days is harder. Most of the time, C compilers come bundled with an advanced version of C, known as C++. Therefore, when you look for a C compiler, you will almost always find a combination C and C++ compiler, and often the C++ functionality is highlighted. The good news is that, after you learn C, you will already have a C++ compiler and you won’t have to learn the ins and outs of a new IDE.
+						</p>
+						<hr>
+						<h3 class="note">Note:</h3>
+						<p class="note"> 
+							Two things to consider when doing this installation. First, the screen shots in the book will probably be a little different than what you see on the Internet—Code::Blocks is constantly improving the software, so the numbers (which refer to the software version) are constantly increasing. The version of Code::Blocks used in the book was 10.05, but at last check, they are up to 12.11, and the number is probably even larger by the time you read this. Second, if you are a Windows user, make sure you select the larger file to download (which has mingw in its title). That version has debugging tools that will come in handy when you become a C-soned programmer. (Get it? No? Just me then?)
+						</p>
+						<hr>
+						<p>
+							After you choose to download the program, go get yourself a snack—it’s a big file, so it takes several minutes to completely download. When it does, click the file and accept all defaults. (Only seasoned programmers need to tweak the installation.) Soon enough, Code::Blocks will be running on your computer. After you exit the Tip of the Day and set Code::Blocks as the associated program with all .c and .cpp files, you can also close the scripting window. You should be left with the opening screen of the software,
+						</p>
+						<a style="text-align: center; " href="#top">Go Back To The Top</a>
+					</div>
+				</td>
+			</tr>
+		</table>
+
+	</body>
+</html>

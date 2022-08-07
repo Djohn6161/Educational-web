@@ -1,0 +1,72 @@
+.button{
+	display: inline;
+	border-radius: 50%;
+	background-color: white;
+	color: black;
+	padding: 15px;
+	border: solid 1px; 
+}
+a:hover{
+	background-color: black;
+	color: white;
+	border: dotted white 1px;
+}
+.fb{
+	background-color: blue;
+	color: white;
+	border-style: solid black;
+	padding: 10px 25px 10px 25px;
+	border-radius: 10px;
+	margin-left: 0px;
+	display: inline;
+}
+.yt{
+	background-color: red;
+	color: white;
+	border-style: solid black;
+	padding: 10px 10px 10px 10px;
+	border-radius: 10px;
+	margin-left: 15px;
+	display: inline;
+}
+.go{
+	background-color: green;
+	color: white;
+	border-style: solid black;
+	padding: 10px 15px 10px 15px;
+	border-radius: 10px;
+	margin-left: 15px;
+	display: inline;
+}
+.leo{
+	background-color: blue;
+	color: white;
+	border-style: solid black;
+	padding: 10px 15px 10px 15px;
+	border-radius: 10px;
+	margin-left: 15px;
+	display: inline;
+}
+.em{
+	background-color: black;
+	color: white;
+	border-style: solid black;
+	padding: 10px 15px 10px 15px;
+	border-radius: 10px;
+	margin-left: 15px;
+	display: inline;
+}
+.home{
+	margin: auto;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+body{
+	font-size: 200%;
+}
+p{
+	text-align: center;
+}
+
